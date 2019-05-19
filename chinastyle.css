@@ -1,0 +1,811 @@
+*{
+ margin: 0;
+ padding: 0;
+ transition: .3s;
+ text-decoration: none;
+ 
+}
+html{
+    background: #C5CCCD;
+    overflow-x: hidden;
+     transition: .3s;
+}
+
+
+header{
+ height: 650px;
+ width: 100%;
+ background-size: 100% 700px;
+ background: #6EA1D5;
+}
+.navbar{
+
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	height: 100px;
+  	
+}
+.navbar:hover{
+	background: rgba(0,0,0,0.5);
+	
+}
+.navbar ul 
+{
+  list-style: none;
+  float: right;	
+  	
+}
+.navbar li{
+  float: left;
+	
+ 
+  
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span
+{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+
+nav h1
+{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+  
+.logo{
+  position: relative;
+  left: 30px;
+  top: 8px;
+}
+.logo span{
+  position: relative;
+  top: 10px;
+}
+.logo span i{
+  font-size: 50px;
+  color: white;
+}
+nav h1{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+
+/*------------------------------- start cards-------------------------*/
+
+.addres1{
+    margin: 110px 500px;
+    color: white;
+    height: 80px;
+    width: 350px;
+}
+.addres1 h1{
+    font-size: 40px;
+}
+.pro{
+    margin-top: -80px;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    transition: .3s;
+}
+.pro:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+i{
+    color: #6EA1D5;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.pro h1{
+    color: #6EA1D5;
+    margin: 30px 35px;
+    }
+#i6,#i5{
+     margin-left: 50px;
+}
+#t6{
+    margin-left: 25px;
+}
+#t5{
+    margin-left: 49px;
+}
+.pro a{
+ color: #6EA1D5;
+}
+  /*---------------------------------------end cards----------------------------*/
+  
+  
+  
+  /*---------------------------------------start description----------------------------*/
+  
+  .all1{
+    width: 100%;
+    height: 500px;
+    background: white;
+  }
+ .chimg{
+    width: 35%;
+    height: 370px;
+    border-radius: 70px;
+    float: left;
+    
+ }  
+  .chimg img{
+    width: 419px;
+    height: 370px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+ }
+ .desc{
+    width: 60%;
+    float: right;
+    margin-top: 70px;
+ }
+ .desc h1{
+  margin-top: 40px;
+  font-size: 40px;
+  color: #6EA1D5;
+ 
+ }
+ .desc p{
+   margin-top: 40px;
+  font-size: 20px;
+  color: #6EA1D5;
+  float: left;
+  margin-right: 100px;
+ }
+  
+   /*---------------------------------------end des----------------------------*/
+     
+     
+     
+     
+ /*---------------------------------------start food----------------------------*/
+ .food{
+          width: 100%;
+    height: 600px;
+    background: #6EA1D5; 
+ }
+ .all2{
+        width: 100%;
+    height: 100%;
+    background: #6EA1D5; 
+ }
+ 
+ .adr1{
+  width: 100%;
+  height: 80px;
+ 
+ }
+ .adr1 h1{
+  float: left;
+  margin-top: 120px;
+  margin-left: 500px;
+ }
+ .wid{
+  width: 100%;
+  float: left;
+  display: inline-block;
+  float: right;
+  
+ }
+ 
+.wid div{
+ float: left;
+}
+ .sor1{
+  
+  margin-left: 20px;
+  margin-top: 80px;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  display: inline-block; 
+ }
+ .sor1:hover{
+  background: white;
+  opacity: .2;
+  
+  
+ }
+ .o1{
+  position: relative;
+  }
+ .o1:hover .sor1{
+  opacity: 0.2;
+ }
+ .o2{
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+ .o1:hover .o2{
+  opacity: 1;
+ }
+ .o3{
+  font-size: 30px;
+  color: pink;
+  font-style: italic;
+  float: left;
+  margin-top: 40px;
+ }
+ 
+ /*---------------------------------------end food----------------------------*/
+ 
+ 
+ 
+ 
+          /*---------------------------------------start places----------------------------*/
+  .places{
+          width: 100%;
+    height: 2750px;
+    background: #C5CCCD; 
+ }
+ .all3{
+        width: 100%;
+    height: 100%; 
+ }
+  .adr2{
+  width: 300px;;
+  height: 60px;
+   background: white;
+   float: left;
+  margin-top: 120px;
+  margin-left: 500px;
+ color: #6EA1D5;
+border: 5px solid #6EA1D5;
+border-radius: 40px;
+ }
+ .adr2:hover{
+  background-color: #6EA1D5;
+  color: white;
+  transform: scale(1.1,1.1);
+ }
+ .adr2 h1{
+  float: left;
+  margin: 15px 30px; 
+
+  }
+  
+  
+  
+ .d1 {
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 100%;
+  height: 50px;
+ }
+ .d1 h1{
+  margin-left: 440px;
+ }
+ .d1 img{
+  border-radius: 40%;
+  margin-left: 290px;
+ }
+ 
+ 
+  .d2 {
+  float: left;
+  margin-top: 450px;
+  margin-left: 30px;
+  width: 100%;
+  height: 50px;
+ }
+ .d2 h1{
+  margin-left: 440px;
+ }
+ .d2 img{
+  border-radius: 40%;
+  margin-left: 290px;
+ }
+ 
+  .d3 {
+  float: left;
+  margin-top: 450px;
+  margin-left: 30px;
+  width: 100%;
+  height: 50px;
+ }
+ .d3 h1{
+  margin-left: 440px;
+ }
+ .d3 img{
+  border-radius: 40%;
+  margin-left: 290px;
+ }
+ 
+ 
+  .d4 {
+  float: left;
+  margin-top: 450px;
+  margin-left: 30px;
+  width: 100%;
+  height: 50px;
+ }
+ .d4 h1{
+  margin-left: 440px;
+ }
+ .d4 img{
+  border-radius: 40%;
+  margin-left: 290px;
+ }
+ 
+ 
+  .d5 {
+  float: left;
+  margin-top: 450px;
+  margin-left: 30px;
+  width: 100%;
+  height: 50px;
+ }
+ .d5 h1{
+  margin-left: 440px;
+ }
+ .d5 img{
+  border-radius: 40%;
+  margin-left: 290px;
+ }
+
+          
+            /*---------------------------------------end places----------------------------*/
+            
+            
+            
+            
+            
+            
+              /*---------------------------------------start hotel---------------------------*/
+              
+  .hotel{
+          width: 100%;
+    height: 1350px;
+    background: white; 
+ }
+ .all4{
+        width: 100%;
+    height: 100%; 
+ }
+              
+              
+    .adr3{
+  width: 350px;;
+  height: 60px;
+   background: white;
+   float: left;
+  margin-top: 120px;
+  margin-left: 500px;
+ color: #6EA1D5;
+border: 5px solid #6EA1D5;
+border-radius: 40px;
+ }
+ .adr3:hover{
+  background-color: #6EA1D5;
+  transform: scale(1.1,1.1);
+  color: white;
+ }
+ .adr3 h1{
+  float: left;
+  margin: 15px 45px; 
+
+  }
+.pos1{
+   width: 100%;
+   height: 100%;
+  }
+  .n1{
+   float: left;
+   margin-top: 300px;
+   margin-left: -800px;
+   height: 400px;
+   width: 400px;
+   background: #6EA1D5;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,.2);
+   text-align: center;
+   border-radius: 10px;
+  }
+  .n1 img{
+   width: 100%;
+   height: 80%;
+   border-radius: 10px 10px 0 0;
+  }
+  .n1 h1{
+   margin-top: 20px;
+  }
+  
+              
+              
+              
+              
+   .n2{
+   float: right;
+   margin-top: 300px;
+   margin-right: 50px;
+   height: 400px;
+   width: 400px;
+   background: #6EA1D5;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,.5);
+   text-align: center;
+   border-radius: 10px;
+  }
+  .n2 img{
+   width: 100%;
+   height: 80%;
+   border-radius: 10px 10px 0 0;
+  }
+  .n2 h1{
+   margin-top: 20px;
+  }             
+              
+              
+              
+              
+   .n3{
+   float: left;
+   margin-top: 400px;
+   margin-left: 18px;
+   height: 400px;
+   width: 400px;
+   background: #6EA1D5;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,.2);
+   text-align: center;
+   border-radius: 10px;
+  }
+  .n3 img{
+   width: 100%;
+   height: 80%;
+   border-radius: 10px 10px 0 0;
+  }
+  .n3 h1{
+   margin-top: 20px;
+  }
+  
+  
+  
+  
+  
+    .n4{
+   float: left;
+   margin-top: 700px;
+   margin-left: -820px;
+   height: 400px;
+   width: 400px;
+   background: #6EA1D5;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,.2);
+   text-align: center;
+   border-radius: 10px;
+  }
+  .n4 img{
+   width: 100%;
+   height: 80%;
+   border-radius: 10px 10px 0 0;
+  }
+  .n4 h1{
+   margin-top: 20px;
+  }
+  
+  
+  
+  
+    .n5{
+   float: right;
+   margin-top: 200px;
+   margin-right: 50px;
+   height: 400px;
+   width: 400px;
+   background: #6EA1D5;
+   box-shadow: 10px 10px 10px 10px rgba(0,0,0,.2);
+   text-align: center;
+   border-radius: 10px;
+  }
+  .n5 img{
+   width: 100%;
+   height: 80%;
+   border-radius: 10px 10px 0 0;
+  }
+  .n5 h1{
+   margin-top: 20px;
+  }
+  
+   /*---------------------------------------end hotel----------------------------*/
+                 
+                 
+                 
+                 
+                  /*---------------------------------------start stay----------------------------*/
+                  
+      .stay{
+          width: 100%;
+    height: 900px;
+    background: #6EA1D5;
+ }
+ .all5{
+        width: 100%;
+    height: 100%; 
+ }              
+                  
+      .adr4{
+  width: 400px;
+  height: 60px;
+   background: #6EA1D5;
+   float: left;
+   margin-top: 120px;
+  margin-left: 500px;
+ color: white;
+border: 5px solid white;
+border-radius: 40px;
+ }
+ .adr4:hover{
+  background-color: white;
+  transform: scale(1.1,1.1);
+  color: #6EA1D5;
+ }
+ .adr4 h1{
+  float: left;
+  margin: 15px 60px; 
+
+  }
+.pos2{
+   width: 100%;
+   height: 100%;
+   float: left;
+  }                
+ .num1{
+  float: left;
+  margin-top: 50px;
+  margin-left: 60px;
+  height: 500px;
+  width: 350px;
+  background: white;
+  border: 10px groove white;
+  border-radius: 10px;
+  }                 
+                  
+  .num1 img{
+    width: 100%;
+     }
+  .num1 h1{
+   margin-left: 5px;
+   margin-top: 10px;
+   
+  }
+  
+  .num1 p{
+   margin-left: 5px;
+   margin-top: 10px;
+   margin-right: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+ .num2{
+  float: left;
+  margin-top: 50px;
+  margin-left: 30px;
+  height: 500px;
+  width: 350px;
+  background: white;
+  border: 10px groove white;
+  border-radius: 10px;
+  }                 
+                  
+  .num2 img{
+    width: 100%;
+     }
+  .num2 h1{
+   margin-left: 5px;
+   margin-top: 10px;
+   
+  }
+  
+  .num2 p{
+   margin-left: 5px;
+   margin-top: 10px;
+   margin-right: 20px;
+  }  
+  
+  
+  
+  
+  
+  
+   .num3{
+  float: left;
+  margin-top: 50px;
+  height: 500px;
+  width: 350px;
+  background: white;
+  border: 10px groove white;
+  border-radius: 10px;
+  }                 
+                  
+  .num3 img{
+    width: 100%;
+     }
+  .num3 h1{
+   margin-left: 5px;
+   margin-top: 10px;
+   
+  }
+  
+  .num3 p{
+   margin-left: 5px;
+   margin-top: 10px;
+   margin-right: 20px;
+  }
+  
+  
+  
+  
+  
+                  
+                  
+                    /*---------------------------------------end stay----------------------------*/
+                    
+                    
+                    
+                    
+                    
+                    
+                    /*---------------------------------------start reason----------------------------*/
+                    
+           .reason{
+          width: 100%;
+    height: 900px;
+    background: #C5CCCD;
+ }
+ .all6{
+        width: 100%;
+    height: 100%; 
+ }               
+                    
+ .all6 h1{
+  margin-top: -50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+ 
+ }
+                    
+ 
+  .all6 h3{
+  margin-bottom: 10px;
+  margin-left: 20px;
+  }                   
+                    
+  .all6 p{
+   margin-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 200px;
+   }                  
+                    
+                    
+                      /*---------------------------------------end reason----------------------------*/
+                      
+                      
+                      
+                      /*---------------------------- footer-------------------*/
+
+
+.icons
+{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#icons
+{
+    padding: 10px;
+}
+.fa
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background-color: #3A589E;
+    color: white;
+    
+  
+}
+.fa-twitter
+{
+    background-color: #5FA8DC;
+     color: white;
+   
+}
+.fa-instagram
+{
+   background-color: #D23095;
+     color: white;
+   
+}
+
+footer
+{
+    color: #5a5c51;
+    text-align: center;
+    font-size: 18px;
+}
+.footer
+{
+    background-color: ;
+}
